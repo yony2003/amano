@@ -1,0 +1,125 @@
+body{
+	//background-color:red;
+}
+
+header{
+	nav{
+		ul{
+			li{
+				display:inline-block;
+			}
+		}
+	}
+}
+/*
+.main{
+overflow-z:hidden;
+	-webkit-font-smoothing: subpixel-antialiased;
+	article{
+		/*text-align: center;* /
+	 	> section{
+	 		text-align:left;
+	 		width:100%;
+	 		//width:320px;
+	 		display: inline-block;
+	 		//border: solid 1px #ccc;
+	 		margin: 10px;
+ 			overflow: hidden;
+ 			position:relative;
+			transition: width 1s ease .2s;
+			-webkit-transform-style: preserve-3d; 
+			/*
+			&:hover{
+				overflow: visible;
+				z-index:1000;
+				width:500px;
+
+				.shadow{ display:block;	width:500px; }
+
+
+				.element{
+		//			transition: width .8s ease-in .12s;
+		//			-webkit-transform-style: preserve-3d; 
+			 		width:320px;
+					&:hover{
+						
+						border:none;
+						width:500px;
+		//				-webkit-backface-visibility: hidden;
+		//				-webkit-background-clip: content-box;
+		// 				-webkit-transform: rotateZ(2deg);
+
+						&:nth-child(2n+1){
+							-webkit-transform: rotateZ(-2deg);
+						}
+
+						h2{
+							display:none;
+						}
+						p{
+							visibility:visible;
+							transition-delay:.4s;
+							border:solid 1px #888
+						}
+					}
+				}
+			}
+* /
+	 		h2{
+	 			border: solid 10px;
+	 			background-color: rgba(136, 136, 136, 0.6);
+	 			margin: 0px;
+	 			position: absolute;
+  				width: 100%;
+  				font-size: 18px;
+  				color: #f0f0f0;
+	 		}
+	 		
+	 		p{
+	 			visibility:hidden;
+	 			padding: 10px;
+	 			font-size: 13px;
+	 			font-family: helvetica;
+	 		}
+
+ 			img{
+ 				//width:100%
+ 			}
+
+	 		.shadow{ 
+				display:none;
+				width: 100%;
+				height: 100%;
+	 		 }
+
+	 	}
+	}
+}*/
+
+.random-gallery{
+	margin:0px;
+	div{
+		border:solid 5px #fff;
+		outline: solid 1px #ccc;
+		margin:5px;
+		background-color: #fff;
+		float:left;
+		text-align:center;
+		overflow:hidden;
+		img{
+			margin-left: -50%;
+			margin-right: -50%;
+			min-width:100%;
+		}
+
+		height:250px;
+		transition: width 1s ease .2s;
+	    -webkit-transform-style: preserve-3d; 
+
+	    &:hover{
+	    	width: 110%;
+	    }
+
+	}
+	
+}
